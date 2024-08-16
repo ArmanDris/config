@@ -1,0 +1,8 @@
+theme = "boo_berry"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.auto-save]
+after-delay.enable = true
+after-delay.timeout = 200
