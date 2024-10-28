@@ -1,0 +1,9 @@
+general {
+    interval = 5
+}
+
+order += "time"
+
+time {
+    format = "%I:%M %p | %A, %B %d, %Y"
+}
