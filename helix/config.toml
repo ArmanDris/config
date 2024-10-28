@@ -1,4 +1,4 @@
-theme = "boo_berry"
+theme = "autumn"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -6,3 +6,4 @@ insert = "bar"
 [editor.auto-save]
 after-delay.enable = true
 after-delay.timeout = 200
+
