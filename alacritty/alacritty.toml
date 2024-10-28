@@ -1,5 +1,8 @@
-import = ["~/.config/alacritty/custom-theme/autumn.toml"]
+general.import = ["~/.config/alacritty/custom-theme/autumn.toml"]
+
+[window]
+padding = { x = 32, y = 32 }
 
 [font]
 normal = { family = "SF Mono" }
-size = 24
+size = 18
