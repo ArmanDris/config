@@ -1,3 +1,11 @@
+[[language]]
+name="elixir"
+auto-format = true
+
+[[language]]
+name="javascript"
+auto-format = true
+
 # Deno Language Server
 [language-server.deno]
 command = "deno"
@@ -36,7 +44,3 @@ language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
 [[language]]
 name = "tsx"
 language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
-
-[[language]]
-name = "svelte"
-language-servers = [ "svelteserver", "tailwindcss-ls" ]

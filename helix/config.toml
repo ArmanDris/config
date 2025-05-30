@@ -7,3 +7,8 @@ insert = "bar"
 after-delay.enable = true
 after-delay.timeout = 200
 
+[keys.normal]
+X = ["extend_line_up", "extend_to_line_bounds"]
+
+[keys.select]
+X = ["extend_line_up", "extend_to_line_bounds"]
