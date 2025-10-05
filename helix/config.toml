@@ -3,10 +3,6 @@ theme = "autumn"
 [editor.cursor-shape]
 insert = "bar"
 
-[editor.auto-save]
-after-delay.enable = true
-after-delay.timeout = 200
-
 [keys.normal]
 X = ["extend_line_up", "extend_to_line_bounds"]
 
