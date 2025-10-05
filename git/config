@@ -1,0 +1,16 @@
+[user]
+	email = adrismir@gmail.com
+	name = Arman D
+[pull]
+	rebase = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
+[core]
+	pager = delta
+[delta]
+	side-by-side = true
