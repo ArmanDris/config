@@ -148,10 +148,8 @@ keybinds {
         bind "Ctrl g" { SwitchToMode "Locked"; }
         bind "Ctrl q" { Quit; }
         bind "Alt n" { NewPane; }
-        bind "Ctrl j" { MoveTab "Left"; }
-        bind "Ctrl k" { MoveTab "Right"; }
-        bind "Alt h" "Alt Left" { MoveFocusOrTab "Left"; }
-        bind "Alt l" "Alt Right" { MoveFocusOrTab "Right"; }
+        bind "Alt h" { MoveFocusOrTab "Left"; }
+        bind "Alt l" { MoveFocusOrTab "Right"; }
         bind "Alt j" "Alt Down" { MoveFocus "Down"; }
         bind "Alt k" "Alt Up" { MoveFocus "Up"; }
         bind "Alt =" "Alt +" { Resize "Increase"; }
@@ -284,7 +282,7 @@ theme "nightfox"
 // The name of the default layout to load on startup
 // Default: "default"
 //
-default_layout "/Users/armandrismir/.config/zellij/layouts/arm-layout.kdl"
+default_layout "/Users/arman/.config/zellij/layouts/arm-layout.kdl"
 
 // Choose the mode that zellij uses when starting up.
 // Default: normal
@@ -335,7 +333,7 @@ default_layout "/Users/armandrismir/.config/zellij/layouts/arm-layout.kdl"
 // Path to the default editor to use to edit pane scrollbuffer
 // Default: $EDITOR or $VISUAL
 //
-// scrollback_editor "/usr/bin/vim"
+scrollback_editor "/usr/local/bin/hx"
 
 // When attaching to an existing session with other users,
 // should the session be mirrored (true)
