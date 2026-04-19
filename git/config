@@ -11,6 +11,10 @@
 [init]
 	defaultBranch = main
 [core]
-	pager = delta
+	pager = diffnav
 [delta]
 	side-by-side = true
+[push]
+	autoSetupRemote = true
+[pager]
+	diff = diffnav
