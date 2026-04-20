@@ -1,7 +1,11 @@
-theme = "autumn_night"
+theme = "iceberg-light"
 
-[editor.cursor-shape]
-insert = "bar"
+[editor]
+rulers = [80]
+line-number = "relative"
+
+# [editor.cursor-shape]
+# insert = "bar"
 
 [keys.normal]
 X = ["extend_line_up", "extend_to_line_bounds"]

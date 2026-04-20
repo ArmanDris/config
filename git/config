@@ -10,10 +10,9 @@
 	required = true
 [init]
 	defaultBranch = main
-[core]
-	pager = diffnav
 [delta]
 	side-by-side = true
+	syntax-theme = GitHub
 [push]
 	autoSetupRemote = true
 [pager]
