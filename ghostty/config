@@ -1,7 +1,8 @@
 macos-option-as-alt = true
-theme = 3024 Day
+theme = adventure time
 
-# Previous light themes:
-# 3024 Day
-# Previous dark themes:
-# branch
+font-size = 16
+
+# Light theme: 3024 Day
+# Dark beige theme: branch
+# Dark purple: adventure time

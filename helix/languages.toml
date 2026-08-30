@@ -1,6 +1,3 @@
-[language-server.expert]
-command = "/usr/local/bin/expert_darwin_arm64 --stdio"
-
 [[language]]
 name="elixir"
 

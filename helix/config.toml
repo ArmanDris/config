@@ -1,4 +1,7 @@
-theme = "iceberg-light"
+# switchblade previous theme: theme = "ashen"
+theme = "switchblade-gruvbox-material-light" # switchblade managed
+# Light themes: "iceberg-light"
+# Dark themes: "ashen"
 
 [editor]
 rulers = [80]
